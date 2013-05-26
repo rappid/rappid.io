@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------*/
+/*--- CSS RESET ---*/
+/*---------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---------------------------------------------------------------------*/
+/*--- STYLE ---*/
+/*---------------------------------------------------------------------*/
+
+body {
+    background: #F5F5F5 url(img/body-bg.png) left top;
+    font: 13px/22px 'Oxygen', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+#logo {
+    width: 101px;
+    height: 100px;
+    display: inline-block;
+    text-indent: -10000px;
+    background: url(img/sprites.png) no-repeat 0 0;
+}
+
+h1 {
+    font-family: 'Century Gothic', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #555;
+}
+
+h1 .io {
+    font-weight: 200;
+}
+
+h2 {
+    font-family: 'Oxygen', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #A1A1A1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto 20px auto;
+    background: #FFF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0 1px 2px #272727;
+    -webkit-box-shadow: 0 1px 2px #272727;
+    box-shadow: 0 1px 2px #272727;
+}
+
+.content {
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border-bottom: 1px solid #F7F7F7;
+}
